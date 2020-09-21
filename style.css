@@ -1,0 +1,41 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  margin-left: 100px;
+}
+
+h1 {
+  color: rgb(54, 112, 179);
+}
+
+button {
+  border: 0;
+  background-color: rgb(54, 112, 179);
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+button:hover {
+  background-color: rgb(92, 140, 194);
+}
+
+input[type="text"] {
+  font-family: "Roboto", sans-serif;
+  border: none;
+  border-bottom: 1px solid rgb(54, 112, 179);
+}
+
+input[type="number"] {
+  font-family: "Roboto", sans-serif;
+  border: none;
+  border-bottom: 1px solid rgb(54, 112, 179);
+}
+
+.un_select {
+  font-family: "Roboto", sans-serif;
+  border: none;
+  border-bottom: 1px solid rgb(54, 112, 179);
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>avion</title>
+    <link href="style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Formulaire Check-In</h1>
+    <form>
+      <label>nom: </label>
+
+      <input
+        type="text"
+        name="nom_passager"
+        placeholder="nom passager"
+        maxlength="100"
+        required
+      />
+      <label>prénom: </label>
+
+      <input
+        type="text"
+        name="prenom_passager"
+        placeholder="prénom passager"
+        maxlength="100"
+        required
+      />
+
+      <br /><br />
+
+      <label>sexe: </label>
+
+      <select class="un_select">
+        <option> ---</option>
+        <option>Homme</option>
+        <option>Femme</option>
+        <option>Autre</option>
+      </select>
+
+      âge: <input type="number" placeholder="0" max="120" required />ans
+      <br /><br />
+
+      <label>numéro de passport: </label>
+      <input type="number" min="100" placeholder="00AA00000" required />
+
+      <br /><br /><label>classe: </label
+      ><input type="radio" name="classe" value="vip" />VIP
+      <input type="radio" name="classe" value="premiere" />1ère
+      <input type="radio" name="classe" value="deuxieme" />2ème
+      <input type="radio" name="classe" value="eco" />Eco
+
+      <br /><br />
+
+      <label>repas: </label>
+
+      <select class="un_select">
+        <option>Tout</option>
+        <option>Halal</option>
+        <option>Casher</option>
+        <option>Végétarien</option>
+        <option>Végan</option>
+      </select>
+
+      <br /><br />
+
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
